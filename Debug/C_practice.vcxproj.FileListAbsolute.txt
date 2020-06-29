@@ -1,0 +1,2 @@
+C:\Users\PeterJeon\Desktop\Programing\C_practice\Debug\C_practice.exe
+C:\Users\PeterJeon\Desktop\Programing\C_practice\Debug\C_practice.pdb
