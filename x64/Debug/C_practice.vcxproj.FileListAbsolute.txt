@@ -1,0 +1,2 @@
+D:\C_practice\x64\Debug\C_practice.exe
+D:\C_practice\x64\Debug\C_practice.pdb

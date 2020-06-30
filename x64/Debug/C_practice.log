@@ -1,0 +1,205 @@
+﻿빌드 시작 환경:
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\user\AppData\Roaming
+APR_ICONV_PATH = C:\Program Files (x86)\Subversion\iconv
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = 1104-01
+ComSpec = C:\WINDOWS\system32\cmd.exe
+DriverData = C:\Windows\System32\Drivers\DriverData
+ForceIdentityAuthenticationType = Embedded
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING = Default
+HOMEDRIVE = C:
+HOMEPATH = \Users\user
+LOCALAPPDATA = C:\Users\user\AppData\Local
+LOGONSERVER = \\1104-01
+MSBuildLoadMicrosoftTargetsReadOnly = true
+NUMBER_OF_PROCESSORS = 8
+OneDrive = C:\Users\user\OneDrive
+OS = Windows_NT
+Path = C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Subversion\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\user\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\user\AppData\Local\Programs\Python\Python38-32\;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Subversion\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;c:\Users\user\AppData\Roaming\Python\Python38\Scripts\;
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PkgDefApplicationConfigFile = C:\Users\user\AppData\Local\Microsoft\VisualStudio\16.0_3267856a\devenv.exe.config
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 9e09
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PT7HOME = C:\Program Files\Cisco Packet Tracer 7.2.2
+PUBLIC = C:\Users\Public
+QT_DEVICE_PIXEL_RATIO = auto
+ServiceHubLogSessionKey = 01ED6AF1
+SESSIONNAME = Console
+SignInWithHomeTenantOnly = False
+SystemDrive = C:
+SystemRoot = C:\WINDOWS
+TEMP = C:\Users\user\AppData\Local\Temp
+ThreadedWaitDialogDpiContext = -4
+TMP = C:\Users\user\AppData\Local\Temp
+USERDOMAIN = 1104-01
+USERDOMAIN_ROAMINGPROFILE = 1104-01
+USERNAME = user
+USERPROFILE = C:\Users\user
+VisualStudioDir = C:\Users\user\OneDrive\문서\Visual Studio 2019
+VisualStudioEdition = Microsoft Visual Studio Community 2019
+VisualStudioVersion = 16.0
+VSAPPIDDIR = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\
+VSAPPIDNAME = devenv.exe
+VSLANG = 1042
+VSSKUEDITION = Community
+windir = C:\WINDOWS
+
+  ch16-Quiz_array.c
+  ch16_array.c
+D:\C_practice\ch16_array.c(68,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+D:\C_practice\ch16_array.c(68,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  ch17_array2.c
+  코드를 생성하고 있습니다...
+  C_practice.vcxproj -> D:\C_practice\x64\Debug\C_practice.exe
+
+프로젝트 성능 요약:
+     1081ms  D:\C_practice\C_practice.vcxproj           1회 호출
+               1081ms  Build                                      1회 호출
+
+대상 성능 요약:
+        0ms  _ResourceCompile                           1회 호출
+        0ms  _Manifest                                  1회 호출
+        0ms  _ALink                                     1회 호출
+        0ms  _Link                                      1회 호출
+        0ms  AfterLink                                  1회 호출
+        0ms  ComputeLinkImportLibraryOutputsForClean    1회 호출
+        0ms  PreLinkEvent                               1회 호출
+        0ms  PrepareResourceNames                       1회 호출
+        0ms  CreateCustomManifestResourceNames          1회 호출
+        0ms  SplitResourcesByCulture                    1회 호출
+        0ms  ComputeManifestInputsTargets               1회 호출
+        0ms  RegisterOutput                             1회 호출
+        0ms  ComputeLinkInputsFromProject               1회 호출
+        0ms  ComputeManifestGeneratedLinkerInputs       1회 호출
+        0ms  ComputeRCGeneratedLinkInputs               1회 호출
+        0ms  ComputeRCOutputs                           1회 호출
+        0ms  BeforeLink                                 1회 호출
+        0ms  BuildLinkTraverse                          1회 호출
+        0ms  BuildCompile                               1회 호출
+        0ms  _BuildCompileAction                        1회 호출
+        0ms  AfterBuildCompileEvent                     1회 호출
+        0ms  FinalizeBuildStatus                        1회 호출
+        0ms  AfterResourceCompile                       1회 호출
+        0ms  ComputeCLOutputs                           1회 호출
+        0ms  MakeDirsForResourceCompile                 1회 호출
+        0ms  ResolvedXDCMake                            1회 호출
+        0ms  MakeDirsForXdcMake                         1회 호출
+        0ms  IncrementalClean                           1회 호출
+        0ms  AfterBuild                                 1회 호출
+        0ms  BuildLink                                  1회 호출
+        0ms  _BuildLinkAction                           1회 호출
+        0ms  PostBuildEvent                             1회 호출
+        0ms  PrepareForRun                              1회 호출
+        0ms  CopyFilesToOutputDirectory                 1회 호출
+        0ms  _CheckForCompileOutputs                    1회 호출
+        0ms  _CopySourceItemsToOutputDirectory          1회 호출
+        0ms  _GetCopyToOutputDirectoryItemsFromThisProject   1회 호출
+        0ms  ComputeCLCompileGeneratedXDCFiles          1회 호출
+        0ms  _GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences   1회 호출
+        0ms  GetCopyToOutputDirectoryXamlAppDefs        1회 호출
+        0ms  _PopulateCommonStateForGetCopyToOutputDirectoryItems   1회 호출
+        0ms  _Deploy                                    1회 호출
+        0ms  _Appverifier                               1회 호출
+        0ms  CreateSatelliteAssemblies                  1회 호출
+        0ms  _GenerateSatelliteAssemblyInputs           1회 호출
+        0ms  _BscMake                                   1회 호출
+        0ms  MakeDirsForBscMake                         1회 호출
+        0ms  ComputeCLCompileGeneratedSbrFiles          1회 호출
+        0ms  _XdcMake                                   1회 호출
+        0ms  GetCopyToOutputDirectoryItems              1회 호출
+        0ms  BeforeResourceCompile                      1회 호출
+        0ms  Build                                      1회 호출
+        0ms  AfterClCompile                             1회 호출
+        0ms  _ClCompile                                 1회 호출
+        0ms  SelectCustomBuild                          1회 호출
+        0ms  _SelectedFiles                             1회 호출
+        0ms  BeforeBuildGenerateSources                 1회 호출
+        0ms  BuildGenerateSourcesTraverse               1회 호출
+        0ms  ResolveReferences                          1회 호출
+        0ms  AfterResolveReferences                     1회 호출
+        0ms  ResolveAssemblyReferences                  1회 호출
+        0ms  ExpandSDKReferences                        1회 호출
+        0ms  CopyFileToFolders                          1회 호출
+        0ms  ResolveSDKReferences                       1회 호출
+        0ms  _CheckWindowsSDKInstalled                  1회 호출
+        0ms  SetBuildDefaultEnvironmentVariables        1회 호출
+        0ms  GetReferenceAssemblyPaths                  1회 호출
+        0ms  GetFrameworkPaths                          1회 호출
+        0ms  PrepareProjectReferences                   1회 호출
+        0ms  _SplitProjectReferencesByFileExistence     1회 호출
+        0ms  BeforeResolveReferences                    1회 호출
+        0ms  _PrepareForReferenceResolution             1회 호출
+        0ms  _PrepareForBuild                           1회 호출
+        0ms  SetCABuildNativeEnvironmentVariables       1회 호출
+        0ms  _Xsd                                       1회 호출
+        0ms  ComputeCustomBuildOutput                   1회 호출
+        0ms  _BuildGenerateSourcesAction                1회 호출
+        0ms  ComputeCLInputPDBName                      1회 호출
+        0ms  BeforeClCompile                            1회 호출
+        0ms  MakeDirsForMidl                            1회 호출
+        0ms  BuildCompileTraverse                       1회 호출
+        0ms  BuildGenerateSources                       1회 호출
+        0ms  AfterBuildGenerateSourcesEvent             1회 호출
+        0ms  FindReferenceAssembliesForReferences       1회 호출
+        0ms  AfterBuildGenerateSources                  1회 호출
+        0ms  SelectClCompile                            1회 호출
+        0ms  _Midl                                      1회 호출
+        0ms  AfterMidl                                  1회 호출
+        0ms  ComputeMIDLGeneratedCompileInputs          1회 호출
+        1ms  FixupCLCompileOptions                      1회 호출
+        1ms  _GetProjectReferenceTargetFrameworkProperties   1회 호출
+        1ms  PreBuildEvent                              1회 호출
+        1ms  ComputeLegacyManifestEmbedding             1회 호출
+        1ms  ComputeCLGeneratedLinkInputs               1회 호출
+        1ms  ComputeReferenceCLInput                    1회 호출
+        1ms  GetResolvedWinMD                           1회 호출
+        1ms  MakeDirsForLink                            1회 호출
+        1ms  AssignTargetPaths                          1회 호출
+        1ms  DoLinkOutputFilesMatch                     1회 호출
+        1ms  AssignProjectConfiguration                 1회 호출
+        2ms  ComputeLinkSwitches                        1회 호출
+        2ms  WarnCompileDuplicatedFilename              1회 호출
+        3ms  MakeDirsForCl                              1회 호출
+        4ms  CustomBuild                                1회 호출
+        5ms  SetTelemetryEnvironmentVariables           1회 호출
+        5ms  InitializeBuildStatus                      1회 호출
+        8ms  PrepareForBuild                            1회 호출
+       13ms  ResolveProjectReferences                   1회 호출
+       15ms  _CheckForInvalidConfigurationAndPlatform   1회 호출
+       16ms  _CleanGetCurrentAndPriorFileWrites         1회 호출
+      322ms  ClCompile                                  1회 호출
+      668ms  Link                                       1회 호출
+
+작업 성능 요약:
+        0ms  Delete                                     2회 호출
+        0ms  ConvertToAbsolutePath                      1회 호출
+        0ms  ReadLinesFromFile                          2회 호출
+        0ms  WriteLinesToFile                           1회 호출
+        0ms  Copy                                       1회 호출
+        0ms  RemoveDuplicates                           2회 호출
+        0ms  CallTarget                                 2회 호출
+        0ms  AssignCulture                              1회 호출
+        1ms  MSBuild                                    1회 호출
+        1ms  SetEnv                                     8회 호출
+        1ms  MakeDir                                    9회 호출
+        1ms  AssignTargetPath                           7회 호출
+        1ms  CheckVCToolsetVersion                      1회 호출
+        1ms  Message                                    3회 호출
+        1ms  AssignProjectConfiguration                 1회 호출
+        4ms  GetOutOfDateItems                          3회 호출
+        4ms  Touch                                      2회 호출
+       16ms  FindUnderPath                              5회 호출
+      320ms  CL                                         1회 호출
+      651ms  Link                                       1회 호출

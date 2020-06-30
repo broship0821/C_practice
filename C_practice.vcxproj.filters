@@ -24,5 +24,11 @@
     <ClCompile Include="123.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ch16-Quiz_array.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ch17_array2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
