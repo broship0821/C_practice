@@ -143,7 +143,9 @@
     <ClCompile Include="ch00_practice.c" />
     <ClCompile Include="ch16-Quiz_array.c" />
     <ClCompile Include="ch16_array.c" />
+    <ClCompile Include="ch17-Quiz_array2.c" />
     <ClCompile Include="ch17_array2.c" />
+    <ClCompile Include="ch18_string.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

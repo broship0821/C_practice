@@ -20,4 +20,46 @@
 //	//int ar3[2][] = { 1,2,3,4,5,6 }; 에러
 //	int ar3[][3] = { 1,2,3,4,5,6 }; // 이건됨, 열의 값이 있어야 끝나는 지점 확인 가능
 //
+//	int ar4[2][3] = { {1,2,3}, {4,5,6} };
+//
+//	int ar5[][3] = { {1,2}, {4} }; // 행값은 지정하지 않아도 자동으로 만들어짐, 지정하지 않은거는 0으로 초기화됨
+//	////이렇게는 안됨
+//	////int ar5[][3] = { {1,2,4} };
+//	////int ar5[][3] = { 1,2,4 };
+//	//for (int i = 0; i < 2; i++) {
+//	//	for(int j=0;j<3;j++)
+//	//		printf("%d\n", ar5[i][j]);
+//	//}
+//	printf("ar5 주소: %p\n", ar5);
+//	printf("ar5 배열 전체 크기: %d\n", sizeof(ar5));
+//	printf("ar5[0] 행 주소: %p\n", ar5[0]); // ar5 주소랑 같음, 시작 주소값
+//	printf("ar5[1] 행 주소: %p\n", ar5[1]);
+//	printf("ar5 배열 한 행의 크기: %d\n", sizeof(ar5[0]));
+//	// 행의 수 = 배열 전체 크기 / 한행의 크기
+//	int ar5_row = sizeof(ar5) / sizeof(ar5[0]);
+//	printf("ar5 행 개수: %d\n", ar5_row);
+//	// 열의 수 = 한 행의 크기 / 한개의 요소 크기
+//	int ar5_col = sizeof(ar5[0]) / sizeof(int);
+//	printf("ar5 열 개수: %d\n", ar5_col);
+//	puts("");
+//	//2차원 배열에서 for문 한번만 적용하면 행 사용 가능
+//	for (int i = 0; i < ar5_row; i++) {
+//		printf("ar5[%d] : %p\n", i,ar5[i]);
+//	}
+//	// 전체 요소 접근하려면 2중 for문 사용
+//	for (int i = 0; i < ar5_row; i++) {
+//		for(int j = 0; j < ar5_col; j++)
+//			printf("ar5[%d][%d] : %p\n", i, j, ar5[i]);
+//	}
+//	puts("");
+//	for (int i = 0; i < ar5_row; i++) {
+//
+//		printf("ar5[%d] : ", i);
+//		for (int j = 0; j < ar5_col; j++) {
+//			printf("%3d", ar5[i][j]);
+//		}
+//		puts("");
+//
+//	}
+//	puts("");
 //}
