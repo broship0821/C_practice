@@ -1,6 +1,6 @@
 //#include <stdio.h>
+//#include <string.h>
 //
-////#include <>  //왜이걸 주석처리해야 프로그램이 실행되지?
 //int main() {
 //	//퀴즈쇼 프로그램 만들기
 //	printf("---- 넌센스 퀴즈쇼 ----");
@@ -11,7 +11,7 @@
 //	puts("\n\n");
 //	printf("타이타닉의 구명 보트에는 몇 명이 탈수 있을까?\n");
 //	printf("정답 >>> ");
-//	scanf_s("%s", answer, sizeof(answer));
+//	scanf_s("%s", answer, sizeof(answer)); // 여기 문제가 있었네
 //	puts("\n");
 //	strcpy(rightAnswer, "9명"); // 정답 적는 칸
 //	check = strcmp(answer, rightAnswer);

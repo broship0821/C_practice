@@ -145,6 +145,7 @@
     <ClCompile Include="ch16_array.c" />
     <ClCompile Include="ch17-Quiz_array2.c" />
     <ClCompile Include="ch17_array2.c" />
+    <ClCompile Include="ch18-Quiz_string.c" />
     <ClCompile Include="ch18_string.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
