@@ -35,7 +35,7 @@ PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\Wi
 PT7HOME = C:\Program Files\Cisco Packet Tracer 7.2.2
 PUBLIC = C:\Users\Public
 QT_DEVICE_PIXEL_RATIO = auto
-ServiceHubLogSessionKey = 1F9AE489
+ServiceHubLogSessionKey = 2693C427
 SESSIONNAME = Console
 SignInWithHomeTenantOnly = False
 SystemDrive = C:
@@ -56,56 +56,54 @@ VSLANG = 1042
 VSSKUEDITION = Community
 windir = C:\WINDOWS
 
-  ch18-Quiz_string.c
-D:\C_practice\ch18-Quiz_string.c(33,10): warning C4477: 'scanf_s' : 서식 문자열 '%s'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'size_t'입니다.
-D:\C_practice\ch18-Quiz_string.c(33,10): message : 이 인수는 버퍼 크기로 사용됩니다.
-D:\C_practice\ch18-Quiz_string.c(35,10): warning C4477: 'scanf_s' : 서식 문자열 '%s'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'size_t'입니다.
-D:\C_practice\ch18-Quiz_string.c(35,10): message : 이 인수는 버퍼 크기로 사용됩니다.
+  ch20-Quiz_rand_macro.c
   C_practice.vcxproj -> D:\C_practice\x64\Debug\C_practice.exe
 
 프로젝트 성능 요약:
-      926ms  D:\C_practice\C_practice.vcxproj           1회 호출
-                926ms  Build                                      1회 호출
+      269ms  D:\C_practice\C_practice.vcxproj           1회 호출
+                269ms  Build                                      1회 호출
 
 대상 성능 요약:
         0ms  _ResourceCompile                           1회 호출
         0ms  AfterLink                                  1회 호출
+        0ms  ComputeLinkImportLibraryOutputsForClean    1회 호출
+        0ms  ComputeLinkSwitches                        1회 호출
         0ms  PreLinkEvent                               1회 호출
-        0ms  DoLinkOutputFilesMatch                     1회 호출
+        0ms  MakeDirsForLink                            1회 호출
         0ms  PrepareResourceNames                       1회 호출
         0ms  CreateCustomManifestResourceNames          1회 호출
-        0ms  SplitResourcesByCulture                    1회 호출
+        0ms  AssignTargetPaths                          1회 호출
         0ms  ComputeManifestInputsTargets               1회 호출
         0ms  ComputeLinkInputsFromProject               1회 호출
+        0ms  _Link                                      1회 호출
         0ms  ComputeCLGeneratedLinkInputs               1회 호출
         0ms  ComputeManifestGeneratedLinkerInputs       1회 호출
         0ms  ComputeRCGeneratedLinkInputs               1회 호출
         0ms  ComputeRCOutputs                           1회 호출
         0ms  BeforeLink                                 1회 호출
-        0ms  ComputeLegacyManifestEmbedding             1회 호출
         0ms  BuildLinkTraverse                          1회 호출
         0ms  BuildCompile                               1회 호출
         0ms  _BuildCompileAction                        1회 호출
         0ms  AfterBuildCompileEvent                     1회 호출
         0ms  AfterResourceCompile                       1회 호출
         0ms  MakeDirsForResourceCompile                 1회 호출
+        0ms  ComputeCLOutputs                           1회 호출
         0ms  BeforeResourceCompile                      1회 호출
-        0ms  _Link                                      1회 호출
         0ms  _ALink                                     1회 호출
-        0ms  _Manifest                                  1회 호출
         0ms  RegisterOutput                             1회 호출
+        0ms  IncrementalClean                           1회 호출
         0ms  AfterBuild                                 1회 호출
         0ms  BuildLink                                  1회 호출
         0ms  _BuildLinkAction                           1회 호출
         0ms  PostBuildEvent                             1회 호출
         0ms  PrepareForRun                              1회 호출
         0ms  CopyFilesToOutputDirectory                 1회 호출
+        0ms  _CheckForCompileOutputs                    1회 호출
         0ms  _CopySourceItemsToOutputDirectory          1회 호출
         0ms  _GetCopyToOutputDirectoryItemsFromThisProject   1회 호출
+        0ms  _Manifest                                  1회 호출
         0ms  _GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences   1회 호출
-        0ms  GetCopyToOutputDirectoryXamlAppDefs        1회 호출
-        0ms  _ClCompile                                 1회 호출
-        0ms  _PopulateCommonStateForGetCopyToOutputDirectoryItems   1회 호출
+        0ms  _Deploy                                    1회 호출
         0ms  _Appverifier                               1회 호출
         0ms  CreateSatelliteAssemblies                  1회 호출
         0ms  _GenerateSatelliteAssemblyInputs           1회 호출
@@ -114,91 +112,89 @@ D:\C_practice\ch18-Quiz_string.c(35,10): message : 이 인수는 버퍼 크기�
         0ms  ComputeCLCompileGeneratedSbrFiles          1회 호출
         0ms  _XdcMake                                   1회 호출
         0ms  MakeDirsForXdcMake                         1회 호출
-        0ms  ComputeCLCompileGeneratedXDCFiles          1회 호출
         0ms  ResolvedXDCMake                            1회 호출
-        0ms  _Deploy                                    1회 호출
-        0ms  AfterClCompile                             1회 호출
+        0ms  _PopulateCommonStateForGetCopyToOutputDirectoryItems   1회 호출
+        0ms  _ClCompile                                 1회 호출
         0ms  Build                                      1회 호출
-        0ms  SelectClCompile                            1회 호출
-        0ms  SelectCustomBuild                          1회 호출
+        0ms  PreBuildEvent                              1회 호출
         0ms  _SelectedFiles                             1회 호출
-        0ms  _PrepareForBuild                           1회 호출
+        0ms  AfterClCompile                             1회 호출
         0ms  BeforeBuildGenerateSources                 1회 호출
         0ms  BuildGenerateSourcesTraverse               1회 호출
         0ms  ResolveReferences                          1회 호출
         0ms  AfterResolveReferences                     1회 호출
         0ms  ResolveAssemblyReferences                  1회 호출
-        0ms  AssignProjectConfiguration                 1회 호출
         0ms  ExpandSDKReferences                        1회 호출
+        0ms  ResolveSDKReferences                       1회 호출
+        0ms  _PrepareForBuild                           1회 호출
         0ms  SetCABuildNativeEnvironmentVariables       1회 호출
         0ms  _CheckWindowsSDKInstalled                  1회 호출
         0ms  GetResolvedWinMD                           1회 호출
-        0ms  SetBuildDefaultEnvironmentVariables        1회 호출
         0ms  GetReferenceAssemblyPaths                  1회 호출
         0ms  GetFrameworkPaths                          1회 호출
+        0ms  ResolveProjectReferences                   1회 호출
         0ms  PrepareProjectReferences                   1회 호출
         0ms  _GetProjectReferenceTargetFrameworkProperties   1회 호출
-        0ms  _PrepareForReferenceResolution             1회 호출
-        0ms  ComputeCustomBuildOutput                   1회 호출
+        0ms  _SplitProjectReferencesByFileExistence     1회 호출
         0ms  BeforeResolveReferences                    1회 호출
+        0ms  CustomBuild                                1회 호출
+        0ms  SelectCustomBuild                          1회 호출
+        0ms  BuildCompileTraverse                       1회 호출
+        0ms  SelectClCompile                            1회 호출
+        0ms  MakeDirsForCl                              1회 호출
+        0ms  SetTelemetryEnvironmentVariables           1회 호출
+        0ms  ComputeReferenceCLInput                    1회 호출
+        0ms  FindReferenceAssembliesForReferences       1회 호출
+        0ms  ComputeCLInputPDBName                      1회 호출
+        0ms  BeforeClCompile                            1회 호출
         0ms  BuildGenerateSources                       1회 호출
         0ms  _BuildGenerateSourcesAction                1회 호출
         0ms  AfterBuildGenerateSourcesEvent             1회 호출
-        0ms  AfterBuildGenerateSources                  1회 호출
-        0ms  BeforeClCompile                            1회 호출
+        0ms  _PrepareForReferenceResolution             1회 호출
         0ms  _Midl                                      1회 호출
-        0ms  CopyFileToFolders                          1회 호출
         0ms  AfterMidl                                  1회 호출
-        0ms  ComputeCLInputPDBName                      1회 호출
-        0ms  FindReferenceAssembliesForReferences       1회 호출
-        0ms  MakeDirsForMidl                            1회 호출
-        0ms  MakeDirsForCl                              1회 호출
         0ms  _Xsd                                       1회 호출
         0ms  ComputeMIDLGeneratedCompileInputs          1회 호출
-        0ms  BuildCompileTraverse                       1회 호출
-        1ms  _SplitProjectReferencesByFileExistence     1회 호출
-        1ms  ComputeCLOutputs                           1회 호출
-        1ms  MakeDirsForLink                            1회 호출
-        1ms  ResolveSDKReferences                       1회 호출
-        1ms  SetTelemetryEnvironmentVariables           1회 호출
-        1ms  FixupCLCompileOptions                      1회 호출
-        1ms  InitializeBuildStatus                      1회 호출
-        1ms  ResolveProjectReferences                   1회 호출
+        0ms  AfterBuildGenerateSources                  1회 호출
+        0ms  MakeDirsForMidl                            1회 호출
+        1ms  AssignProjectConfiguration                 1회 호출
+        1ms  ComputeLegacyManifestEmbedding             1회 호출
+        1ms  DoLinkOutputFilesMatch                     1회 호출
         1ms  _CleanGetCurrentAndPriorFileWrites         1회 호출
-        1ms  AssignTargetPaths                          1회 호출
-        1ms  CustomBuild                                1회 호출
         1ms  GetCopyToOutputDirectoryItems              1회 호출
-        1ms  _CheckForCompileOutputs                    1회 호출
-        1ms  ComputeReferenceCLInput                    1회 호출
-        1ms  WarnCompileDuplicatedFilename              1회 호출
-        1ms  ComputeLinkSwitches                        1회 호출
-        1ms  IncrementalClean                           1회 호출
-        1ms  PreBuildEvent                              1회 호출
-        1ms  _CheckForInvalidConfigurationAndPlatform   1회 호출
-        1ms  ComputeLinkImportLibraryOutputsForClean    1회 호출
+        1ms  ComputeCLCompileGeneratedXDCFiles          1회 호출
+        1ms  GetCopyToOutputDirectoryXamlAppDefs        1회 호출
+        1ms  SplitResourcesByCulture                    1회 호출
+        1ms  CopyFileToFolders                          1회 호출
+        1ms  FixupCLCompileOptions                      1회 호출
         1ms  FinalizeBuildStatus                        1회 호출
+        1ms  InitializeBuildStatus                      1회 호출
+        1ms  SetBuildDefaultEnvironmentVariables        1회 호출
+        1ms  ComputeCustomBuildOutput                   1회 호출
+        2ms  _CheckForInvalidConfigurationAndPlatform   1회 호출
         2ms  PrepareForBuild                            1회 호출
-      237ms  ClCompile                                  1회 호출
-      663ms  Link                                       1회 호출
+        2ms  WarnCompileDuplicatedFilename              1회 호출
+      109ms  ClCompile                                  1회 호출
+      135ms  Link                                       1회 호출
 
 작업 성능 요약:
         0ms  Message                                    3회 호출
         0ms  FindUnderPath                              5회 호출
         0ms  ConvertToAbsolutePath                      1회 호출
         0ms  Copy                                       1회 호출
-        0ms  AssignCulture                              1회 호출
-        0ms  RemoveDuplicates                           2회 호출
-        0ms  GetOutOfDateItems                          3회 호출
+        0ms  CallTarget                                 2회 호출
+        0ms  AssignTargetPath                           7회 호출
+        0ms  Delete                                     2회 호출
         0ms  CheckVCToolsetVersion                      1회 호출
         0ms  MSBuild                                    1회 호출
         0ms  AssignProjectConfiguration                 1회 호출
-        0ms  SetEnv                                     8회 호출
+        0ms  ReadLinesFromFile                          2회 호출
+        1ms  RemoveDuplicates                           2회 호출
         1ms  MakeDir                                    9회 호출
+        1ms  AssignCulture                              1회 호출
+        1ms  GetOutOfDateItems                          3회 호출
         1ms  WriteLinesToFile                           1회 호출
-        1ms  ReadLinesFromFile                          2회 호출
-        1ms  AssignTargetPath                           7회 호출
-        1ms  CallTarget                                 2회 호출
-        1ms  Delete                                     2회 호출
         1ms  Touch                                      2회 호출
-      236ms  CL                                         1회 호출
-      663ms  Link                                       1회 호출
+        1ms  SetEnv                                     8회 호출
+      108ms  CL                                         1회 호출
+      133ms  Link                                       1회 호출

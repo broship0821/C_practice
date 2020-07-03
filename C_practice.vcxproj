@@ -147,6 +147,9 @@
     <ClCompile Include="ch17_array2.c" />
     <ClCompile Include="ch18-Quiz_string.c" />
     <ClCompile Include="ch18_string.c" />
+    <ClCompile Include="ch19_rand.c" />
+    <ClCompile Include="ch20-Quiz_rand_macro.c" />
+    <ClCompile Include="ch20_macro.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
