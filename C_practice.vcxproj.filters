@@ -48,5 +48,17 @@
     <ClCompile Include="ch20-Quiz_rand_macro.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ch21_variable-life-cycle.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ch22_function.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ch23_function_use.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ch23-Quiz_function.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -150,6 +150,10 @@
     <ClCompile Include="ch19_rand.c" />
     <ClCompile Include="ch20-Quiz_rand_macro.c" />
     <ClCompile Include="ch20_macro.c" />
+    <ClCompile Include="ch21_variable-life-cycle.c" />
+    <ClCompile Include="ch22_function.c" />
+    <ClCompile Include="ch23-Quiz_function.c" />
+    <ClCompile Include="ch23_function_use.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
