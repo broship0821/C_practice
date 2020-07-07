@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 //int withdraw();
+//int ATM(int money, int balance);
 //
 //int main() {
 //	// Q-2 ATM 기 코드를 작성하세요
@@ -14,15 +15,7 @@
 //
 //	int money = withdraw();
 //
-//	if (money > 0 && money % 10000 == 0 && money <= balance) {
-//		balance -= money;
-//		printf("%d 원 출금 성공\n", money);
-//		printf("출금 후 잔액 : %d 원\n", balance);
-//	}
-//	else {
-//		puts("인출 금액 오류~");
-//	}
-//	printf("잔액 : %d 원\n", balance);
+//	balance = ATM(money, balance);
 //
 //}
 //
@@ -33,13 +26,23 @@
 //	return money;
 //}
 //
-//void ATM(int money) {
-//	// 이건 오히려 비효율적일거 같음
+//int ATM(int money, int balance) {
+//	if (money > 0 && money % 10000 == 0 && money <= balance) {
+//		balance -= money;
+//		printf("%d 원 출금 성공\n", money);
+//		printf("출금 후 잔액 : %d 원\n", balance); // 잔액 표시는 메인 함수에 넣는게 좋음
+//	}
+//	else {
+//		puts("인출 금액 오류~");
+//	}
+//	printf("잔액 : %d 원\n", balance); // 잔액 표시는 메인 함수에 넣는게 좋음
+//	return balance;
 //}
 
 //----------------------------------------------------------------------------------------------
 
-//char userCard();
+//char UserCard();
+//int bus(char userCard, int money);
 //
 //int main() {
 //	// 버스단말기 코드를 작성하세요
@@ -47,15 +50,27 @@
 //	//   버스카드 잔액을 설정합니다
 //	//   카드를 확인합니다( g : 일반, s : 학생 )
 //	//   확인후에 차감된 금액을 알려주세요
-//	int money = 200;
+//	int money = 2000;
 //	printf("잔액 : %d 원\n", money);
 //
-//	char userCard;
+//	char userCard = UserCard(); //변수랑 함수명이랑 똑같으면 안됨
 //	puts("");
 //
+//	money = bus(userCard, money);
+//
+//	
+//}
+//
+//char UserCard() {
+//	char userCard;
+//	printf("g : 일반 , s : 학생 > "); userCard = getchar();
+//	return userCard;
+//}
+//
+//int bus(char userCard, int money) {
 //	int general = 1250;
 //	int student = 720;
-//	char cardCheck = 'y';   // y : 승인,  n : 미승인
+//	char cardCheck = 'y';
 //	switch (userCard) {
 //	case 'g':
 //		if (money >= general)
@@ -79,24 +94,26 @@
 //	}
 //	if (cardCheck == 'y') {
 //		printf("삑! 잔액 : %d 원\n", money);
+//		return money;
 //	}
-//}
-//
-//char userCard() {
-//	char userCard;
-//	printf("g : 일반 , s : 학생 > "); userCard = getchar();
-//	return userCard;
 //}
 
 
 //----------------------------------------------------------------------------------------------
 
 
-
-
+//int add();
+//
 //int main() {
 //	// 숫자 3개를 입력받고, 입력받은 수의 합을 구하는 코드를 작성하세요
 //	// 더하는 값은 +(plus)만 가능하고, 입력 값은 모두 저장되어 있지 않아도 됩니다
+//
+//	int sum = add();
+//
+//	printf("입력 값의 합 : %d\n", sum);
+//}
+//
+//int add() {
 //	int data = 0;
 //	int count = 1;
 //	int sum = 0;
@@ -108,9 +125,5 @@
 //			++count;
 //		}
 //	}
-//	printf("입력 값의 합 : %d\n", sum);
-//}
-//
-//int add(int count) {
-//	// 매개변수로 모든 변수를 다 받아야 되는데 비효율적인거 아닌가??
+//	return sum;
 //}

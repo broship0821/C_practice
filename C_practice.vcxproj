@@ -153,6 +153,7 @@
     <ClCompile Include="ch21_variable-life-cycle.c" />
     <ClCompile Include="ch22_function.c" />
     <ClCompile Include="ch23-Quiz_function.c" />
+    <ClCompile Include="ch23-Quiz_function_2.c" />
     <ClCompile Include="ch23_function_use.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

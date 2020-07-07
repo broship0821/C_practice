@@ -60,5 +60,8 @@
     <ClCompile Include="ch23-Quiz_function.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ch23-Quiz_function_2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
