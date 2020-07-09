@@ -157,7 +157,9 @@
     <ClCompile Include="ch23_function_use.c" />
     <ClCompile Include="ch24-Quiz_pointer.c" />
     <ClCompile Include="ch24_pointer.c" />
+    <ClCompile Include="ch25-Quiz_pointer_function.c" />
     <ClCompile Include="ch25_pointer_function.c" />
+    <ClCompile Include="ch26_struct.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

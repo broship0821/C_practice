@@ -72,5 +72,11 @@
     <ClCompile Include="ch25_pointer_function.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ch25-Quiz_pointer_function.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ch26_struct.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
