@@ -160,6 +160,8 @@
     <ClCompile Include="ch25-Quiz_pointer_function.c" />
     <ClCompile Include="ch25_pointer_function.c" />
     <ClCompile Include="ch26_struct.c" />
+    <ClCompile Include="ch27_struct_function.c" />
+    <ClCompile Include="ch28_dynamic-allocation.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

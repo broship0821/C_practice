@@ -78,5 +78,11 @@
     <ClCompile Include="ch26_struct.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ch27_struct_function.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ch28_dynamic-allocation.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
