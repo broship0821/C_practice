@@ -4,9 +4,9 @@
 #include <time.h>
 
 //void LifeCycle() {
-//	//지역변수 - stack
+//	//지역변수 - stack에 저장됨, 함수 끝나면 자동으로 사라짐
 //	int a = 10;
-//	//동적할당 - heap
+//	//동적할당 - heap에 저장됨, 함수 끝나도 사라지지 않음, 사용 완료후 직접 삭제
 //	int* p = (int*)malloc(sizeof(int)); // 함수 안에 동적할당 사용하면 함수 끝나고 나서도 사용할수 있음
 //	*p = 20;
 //
@@ -92,7 +92,7 @@
 //	if (s != NULL) {
 //		strcpy_s(s, strlen(tmp) + 1, tmp);
 //	}
-//	return s;
+//	return s;  //s 는 함수가 끝나도 사용 가능
 //}
 //
 //int main() {

@@ -42,7 +42,7 @@
 //
 //	// 최고 점수 학생의 성적을 출력하는 함수를 구현하세요
 //	ShowTopPoint(stu, topIdx);
-//	//내꺼
+//	//내꺼 2문제 한꺼번에 했음
 //	int BestStudent = BestStu(stu, stuLength);
 //	printf("최고 점수는 %d번 학생 입니다.\n", BestStudent);
 //	
